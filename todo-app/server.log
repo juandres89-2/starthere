@@ -1,0 +1,47 @@
+
+> todo-app@0.1.0 dev
+> next dev -H 0.0.0.0
+
+   ▲ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1061ms
+ ○ Compiling / ...
+[Error: Can't resolve 'tailwindcss' in '/workspace/todo-app/src/app'] {
+  details: "resolve 'tailwindcss' in '/workspace/todo-app/src/app'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: /workspace/todo-app/package.json (relative path: ./src/app)\n' +
+    '    resolve as module\n' +
+    "      /workspace/todo-app/src/app/node_modules doesn't exist or is not a directory\n" +
+    "      /workspace/todo-app/src/node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /workspace/todo-app/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /workspace/todo-app/package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    '              /workspace/todo-app/node_modules/tailwindcss is not a file\n' +
+    '            .css\n' +
+    "              /workspace/todo-app/node_modules/tailwindcss.css doesn't exist\n" +
+    '        existing directory /workspace/todo-app/node_modules/tailwindcss\n' +
+    '          using description file: /workspace/todo-app/node_modules/tailwindcss/package.json (relative path: .)\n' +
+    '            using description file: /workspace/todo-app/package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '              no extension\n' +
+    '                /workspace/todo-app/node_modules/tailwindcss is not a file\n' +
+    '              .css\n' +
+    "                /workspace/todo-app/node_modules/tailwindcss.css doesn't exist\n" +
+    '              as directory\n' +
+    '                existing directory /workspace/todo-app/node_modules/tailwindcss\n' +
+    '                  using description file: /workspace/todo-app/node_modules/tailwindcss/package.json (relative path: .)\n' +
+    '                    using path: /workspace/todo-app/node_modules/tailwindcss/index\n' +
+    '                      using description file: /workspace/todo-app/node_modules/tailwindcss/package.json (relative path: ./index)\n' +
+    '                        no extension\n' +
+    "                          /workspace/todo-app/node_modules/tailwindcss/index doesn't exist\n" +
+    '                        .css\n' +
+    "                          /workspace/todo-app/node_modules/tailwindcss/index.css doesn't exist\n" +
+    "      /workspace/node_modules doesn't exist or is not a directory\n" +
+    "      /node_modules doesn't exist or is not a directory"
+}
+ ✓ Compiled / in 2.3s (579 modules)
+ GET / 200 in 2552ms
